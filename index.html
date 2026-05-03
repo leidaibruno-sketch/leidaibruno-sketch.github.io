@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dailei | 西安电子科技大学校友个人主页</title>
+    <meta
+      name="description"
+      content="Dailei 的个人经历、项目经验、技能方向与联系方式。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="返回顶部">
+        <span class="brand-mark">XD</span>
+        <span>
+          <strong>个人主页</strong>
+          <small>leidaibruno-sketch.github.io</small>
+        </span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="#about">简介</a>
+        <a href="#experience">经历</a>
+        <a href="#projects">项目</a>
+        <a href="#skills">技能</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">西安电子科技大学 · 个人学术主页模板</p>
+          <h1>Dailei</h1>
+          <p class="lead">
+            软件工程师 / 研究型开发者，毕业于西安电子科技大学。关注人工智能应用、数据平台、
+            后端系统与工程化实践，具备从需求分析、系统设计到项目交付的完整经验。
+          </p>
+          <div class="hero-actions" aria-label="主要操作">
+            <a class="button primary" href="#projects">查看项目</a>
+            <a class="button secondary" href="mailto:your.email@example.com">联系我</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="个人信息概览">
+          <img class="profile-photo" src="assets/avatar-placeholder.svg" alt="Dailei 个人头像占位图" />
+          <div>
+            <h2>Dailei</h2>
+            <p>西安电子科技大学 · 计算机相关专业</p>
+          </div>
+          <dl class="profile-list">
+            <div>
+              <dt>方向</dt>
+              <dd>AI 应用 / 后端架构 / 数据分析</dd>
+            </div>
+            <div>
+              <dt>地点</dt>
+              <dd>中国 · 西安 / 可远程协作</dd>
+            </div>
+            <div>
+              <dt>邮箱</dt>
+              <dd><a href="mailto:your.email@example.com">your.email@example.com</a></dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>个人简介</h2>
+        </div>
+        <div class="content-grid">
+          <p>
+            这里填写你的个人介绍。建议用 2-3 段说明教育背景、当前职业身份、研究或工程方向、
+            代表性能力，以及你希望别人通过这个主页快速了解的重点。
+          </p>
+          <p>
+            示例：本科/硕士毕业于西安电子科技大学，长期参与智能系统、数据平台与 Web
+            服务开发。熟悉需求拆解、架构设计、接口设计、性能优化与团队协作，能够将研究想法
+            或业务目标转化为稳定可维护的产品功能。
+          </p>
+        </div>
+      </section>
+
+      <section class="section muted" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>教育与工作经历</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="time">2020 - 2024</span>
+            <div>
+              <h3>西安电子科技大学 · 本科 / 硕士</h3>
+              <p>
+                专业方向：计算机科学与技术 / 软件工程 / 人工智能。可补充主修课程、
+                毕设题目、实验室经历、奖学金与竞赛成绩。
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="time">2024 - 至今</span>
+            <div>
+              <h3>某科技公司 · 软件工程师</h3>
+              <p>
+                负责后端服务、数据处理平台或 AI 应用系统建设。可写清楚业务规模、
+                技术栈、个人职责与可量化成果。
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="time">长期</span>
+            <div>
+              <h3>开源 / 研究 / 竞赛实践</h3>
+              <p>
+                参与开源项目、论文复现、科研训练、创新创业项目或学科竞赛，
+                强调问题定义、技术方案和最终产出。
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>项目经验</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-meta">
+              <span>项目一</span>
+              <span>2025</span>
+            </div>
+            <h3>智能问答与知识库系统</h3>
+            <p>
+              面向企业文档构建检索增强问答系统，支持文档解析、向量检索、权限隔离与回答溯源。
+            </p>
+            <ul class="tags">
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>RAG</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span>项目二</span>
+              <span>2024</span>
+            </div>
+            <h3>实时数据分析平台</h3>
+            <p>
+              设计数据采集、清洗、指标计算与可视化链路，为运营分析与异常监控提供统一服务。
+            </p>
+            <ul class="tags">
+              <li>Java</li>
+              <li>Kafka</li>
+              <li>Redis</li>
+              <li>Vue</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span>项目三</span>
+              <span>2023</span>
+            </div>
+            <h3>校园服务小程序</h3>
+            <p>
+              围绕校园通知、活动报名、信息查询等场景搭建移动端应用，提升信息触达效率。
+            </p>
+            <ul class="tags">
+              <li>TypeScript</li>
+              <li>Node.js</li>
+              <li>MySQL</li>
+              <li>WeChat</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section muted" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>技能方向</h2>
+        </div>
+        <div class="skill-grid">
+          <article>
+            <h3>编程与框架</h3>
+            <p>Python、Java、TypeScript、FastAPI、Spring Boot、Vue / React。</p>
+          </article>
+          <article>
+            <h3>系统与数据</h3>
+            <p>Linux、Docker、MySQL、PostgreSQL、Redis、Kafka、消息队列与缓存设计。</p>
+          </article>
+          <article>
+            <h3>人工智能应用</h3>
+            <p>大模型 API、RAG、Embedding、提示词工程、模型评测与应用落地。</p>
+          </article>
+          <article>
+            <h3>工程实践</h3>
+            <p>接口设计、性能优化、CI/CD、自动化测试、文档沉淀与跨团队协作。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section achievements">
+        <div class="section-heading">
+          <p class="eyebrow">Highlights</p>
+          <h2>成果亮点</h2>
+        </div>
+        <div class="stats">
+          <div>
+            <strong>6+</strong>
+            <span>核心项目经验</span>
+          </div>
+          <div>
+            <strong>3</strong>
+            <span>主要技术方向</span>
+          </div>
+          <div>
+            <strong>2+</strong>
+            <span>论文 / 专利 / 竞赛成果</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>联系方式</h2>
+          <p>
+            欢迎就技术合作、项目机会、研究交流或职业发展进行沟通。这里可以放邮箱、GitHub、
+            LinkedIn、个人博客、知乎或微信公众号。
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com">your.email@example.com</a>
+          <a href="https://github.com/leidaibruno-sketch">github.com/leidaibruno-sketch</a>
+          <a href="#">个人简历 PDF</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+          <span>© <span id="year"></span> Dailei</span>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
